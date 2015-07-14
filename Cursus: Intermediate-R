@@ -1,0 +1,34 @@
+TRUE & TRUE
+FALSE | TRUE
+5 <= 5 & 2 < 3
+3 < 4 | 7 < 6
+
+
+if...else
+
+if(condition1) {
+  expr1
+} else if(condition2) {
+  expr2
+} else if(condition3) {
+  expr3
+} else {
+  expr4
+}
+
+Bijvoorbeeld: 
+
+# Variables related to your last day of recordings
+li <- 9
+fb <- 9
+
+# Code the control-flow construct
+
+if(li >= 15 & fb >= 15) { sms <- sum(li,fb)*2
+
+} else if(li < 10 & fb < 10) {sms <- sum(li,fb)*0.5
+
+} else {sms <- sum(li,fb)}
+
+# Print the resulting sms to the console
+sms
