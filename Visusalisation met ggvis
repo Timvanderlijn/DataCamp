@@ -1,0 +1,9 @@
+voorbeeld van grafiek, incl benaming van de assen en verdeling van de assen. Met values zorg je er voor dat de as die nummers weergeeft 
+en subdived geeft aan in hoeveel delen ze van de 1 naar het andere getal moet gaan.Dus in onderstaand geval in 9 delen van 4 naar 5. 
+
+> faithful %>%  
+...     ggvis(~waiting, ~eruptions, fill := "red") %>%  
+...     layer_points() %>%  
+...     add_axis("y", title = "Duration of eruption (m)",  
+...              values = c(2, 3, 4, 5), subdivide = 9) %>%  
+...     add_axis("x", title = "Time since previous eruption (m)")
