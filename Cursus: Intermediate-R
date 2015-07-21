@@ -32,3 +32,18 @@ if(li >= 15 & fb >= 15) { sms <- sum(li,fb)*2
 
 # Print the resulting sms to the console
 sms
+
+While loop, met if statement
+
+while(speed > 30) {
+  print(paste("Your speed is",speed))
+  if(speed > 48) {
+    print("Slow down big time!")
+    speed <- speed - 11
+  } else {
+    print("Slow down!")
+    speed <- speed - 6
+  }
+}
+
+
